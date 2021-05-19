@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import firebase from "firebase";
+import storage from "../../firebase/config.js";
 
 export default class Gallery extends Component {
   render() {

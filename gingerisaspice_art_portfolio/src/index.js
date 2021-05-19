@@ -11,8 +11,10 @@ import { Router, Route, Switch } from "react-router-dom";
 import App from "./views/app/App";
 import ContactPage from "./views/contact/ContactPage";
 import GalleryPage from "./views/gallery/GalleryPage.js";
-// import LoginPage from "views/LoginPage/LoginPage.js";
+import UploadPage from "./views/upload/UploadPage.js";
 // import TestPage from "views/TestPage/TestPage.js";
+
+
 
 var hist = createBrowserHistory();
 
@@ -21,8 +23,8 @@ ReactDOM.render(
     <Switch>
       {/* <Route path="/gallery" component={GalleryPage} />
       <Route path="/profile-page" component={ProfilePage} />
-      <Route path="/login-page" component={LoginPage} />
-      <Route path="/test-page" component={TestPage} /> */}
+      <Route path="/login-page" component={LoginPage} />*/}
+      <Route path="/upload" component={UploadPage} /> 
       <Route path="/contact" component={ContactPage} />
       <Route path="/gallery" component={GalleryPage} />
       <Route path="/" component={App} />
